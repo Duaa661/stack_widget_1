@@ -1,0 +1,67 @@
+body:Center(
+        child: Container(
+          width: 600,
+          height: 600,
+          child: Center(
+            child: Stack(
+             children:[
+               Positioned(
+                 top: 70,
+                 left: 70,
+                 right: 70,
+                 bottom: 70,
+                 child: Center(
+                   child: Container(
+                     width: 229,
+                     height: 229,
+                     color: Colors.deepOrange,
+                   ),
+                 ),
+               ),
+               Positioned(
+                 top: 20,
+                 left: 20,
+                 right: 20,
+                 bottom: 20,
+                 child: Center(
+                   child: Container(
+                     width: 129,
+                     height: 129,
+                     color: Colors.yellow,
+                   ),
+                 ),
+               ),
+               Positioned(
+                 top: 30,
+                 left: 30,
+                 right: 30,
+                 bottom: 30,
+                 child: Center(
+                   child: Container(
+                     width: 89,
+                     height: 89,
+                     color: Colors.green,
+                   ),
+                 ),
+               ),
+               Positioned(
+                 top: 50,
+                 left: 50,
+                 right: 50,
+                 bottom: 50,
+                 child: Center(
+                   child: Container(
+                     width: 29,
+                     height: 29,
+                     color: Colors.red,
+                   ),
+                 ),
+               )
+             ],
+            ),
+          ),
+        ),
+      )
+    );
+  }
+}
